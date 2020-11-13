@@ -1,0 +1,62 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+#char-count {
+    font-size: 1.5em;
+}
+
+.grid {
+    border: 2px solid gray;
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+}
+
+.colors {
+    border: 2px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, 50px);
+    max-width: 800px;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+}
+
+.color-name {
+    width: 50px;
+    border: 0px;
+}
+
+.selected.blank {
+    border: 1px solid black;
+}
+
+.selected {
+    border: 1px solid black;
+}
+
+.blank {
+    border: 1px dashed black;
+    width: 48px;
+    height: 48px;
+}
+
+.red {
+    color: red;
+}
+
+input,
+button {
+    font-family: 'Nunito', sans-serif;
+}

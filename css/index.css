@@ -1,0 +1,45 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+body,
+html {
+    margin: 0px;
+    height: 100%;
+}
+
+h1 {
+    margin: 5px;
+}
+
+#content {
+    text-align: center;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 300px;
+}
+
+span {
+    margin: 5px;
+}
+
+input {
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    width: 50px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
